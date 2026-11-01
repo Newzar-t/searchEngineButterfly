@@ -1,10 +1,6 @@
-
-
-
-
-export default function Butterfly() {
+export default function Butterfly(props) {
   return (
-    <mesh position={[5, 1, 3]}>
+    <mesh ref={props.reference} position={props.position}>
       <meshNormalMaterial />
       <boxGeometry args={[0.5, 0.5, 0.5]} />
     </mesh>
