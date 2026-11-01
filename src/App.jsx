@@ -1,19 +1,13 @@
 import "./App.css";
 import { Canvas } from "@react-three/fiber";
 import Biome from "./components/Biome";
-import {
-  CameraControls,
-
-  PerspectiveCamera,
-} from "@react-three/drei";
+import { CameraControls, PerspectiveCamera } from "@react-three/drei";
 import { useRef } from "react";
-
+import UserCamera from "./components/UserCamera";
 function App() {
-  const debugCamera = useRef();
   return (
     <Canvas>
-      <PerspectiveCamera makeDefault position={[0, 5, 25]} />
-      <CameraControls />
+      <UserCamera></UserCamera>
       <ambientLight intensity={6} color={0xffffff} />
       <Biome />
     </Canvas>

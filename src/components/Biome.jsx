@@ -1,10 +1,12 @@
 import Ground from "./Ground";
-import UserCamera from "./UserCamera";
+import Butterfly from "./Butterfly";
 
 function Biome() {
   return (
     <>
-      <UserCamera />
+      <group>
+        <Butterfly />
+      </group>
       <Ground></Ground>
     </>
   );
