@@ -15,8 +15,8 @@ export default function UserCamera(props) {
       fov={75}
       aspect={window.innerWidth / window.innerHeight}
       near={1}
-      far={20}
-      position={[0, 2, 0]}
+      far={50}
+      position={[0, 2, 15]}
     >
       <PointerLockControls />
     </PerspectiveCamera>

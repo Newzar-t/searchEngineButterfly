@@ -1,8 +1,10 @@
+import { useRef } from "react";
+
 export default function Butterfly(props) {
   return (
-    <mesh ref={props.reference} position={props.position}>
+    <mesh ref={props.reference}>
       <meshNormalMaterial />
-      <boxGeometry args={[0.5, 0.5, 0.5]} />
+      <boxGeometry args={[5, 5, 5]} />
     </mesh>
   );
 }
