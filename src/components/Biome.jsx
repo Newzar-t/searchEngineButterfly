@@ -6,18 +6,12 @@ import { useFrame } from "@react-three/fiber";
 import Path from "./Path";
 
 function animateMovement(obj, path, time) {
-  let hasLoopEnded = false;
-  let progression = Math.min(time / 10, 1);
-  if (progression === 1) {
-    hasLoopEnded = true;
-  } else {
-    hasLoopEnded = false;
-  }
-  while (time === 1) {
-    hasLoopEnded ? (progression = 0) : (progression = Math.min(0.1 / 10, 1));
-  }
-  const position = path.current.getPointAt(progression);
-  obj.current.position.copy(position);
+  const movement = () => {
+    let progression = Math.min((time / 10) % 1);
+    let position = path.current.getPointAt(progression);
+    obj.current.position.copy(position);
+  };
+  movement();
 }
 
 function Biome() {
