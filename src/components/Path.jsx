@@ -1,6 +1,6 @@
-import { CatmullRomLine } from "@react-three/drei";
+/* eslint-disable react-hooks/refs */
+
 import { Vector3 } from "three";
-import { color } from "three/src/Three.TSL.js";
 
 function Path(props) {
   const curvePoints = [

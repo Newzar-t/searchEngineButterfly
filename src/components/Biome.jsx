@@ -1,29 +1,34 @@
+/* eslint-disable no-useless-assignment */
 import Ground from "./Ground";
 import Butterfly from "./Butterfly";
 import { useEffect, useRef } from "react";
 import { useFrame } from "@react-three/fiber";
-import * as THREE from "three";
 import Path from "./Path";
 
-function animateMovement() {}
+function animateMovement(obj, path, time) {
+  let hasLoopEnded = false;
+  let progression = Math.min(time / 10, 1);
+  if (progression === 1) {
+    hasLoopEnded = true;
+  } else {
+    hasLoopEnded = false;
+  }
+  while (time === 1) {
+    hasLoopEnded ? (progression = 0) : (progression = Math.min(0.1 / 10, 1));
+  }
+  const position = path.current.getPointAt(progression);
+  obj.current.position.copy(position);
+}
 
 function Biome() {
   const butterflyRef = useRef();
   const pathRef = useRef();
 
-  let time;
-
-  useEffect(() => {
-    console.log(pathRef.current.points);
-  });
+  useEffect(() => {});
 
   useFrame(({ clock }) => {
     const time = clock.elapsedTime;
-    let progression = Math.min(time / 10, 1);
-    if (time === 1) progression = Math.min(0.1 / 10, 1);
-
-    const position = pathRef.current.getPointAt(progression);
-    butterflyRef.current.position.copy(position);
+    animateMovement(butterflyRef, pathRef, time);
   });
 
   return (

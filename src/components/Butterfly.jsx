@@ -1,10 +1,9 @@
-import { useRef } from "react";
-
+/* eslint-disable react-hooks/refs */
 export default function Butterfly(props) {
   return (
     <mesh ref={props.reference}>
       <meshNormalMaterial />
-      <boxGeometry args={[5, 5, 5]} />
+      <boxGeometry args={[1, 1, 1]} />
     </mesh>
   );
 }
