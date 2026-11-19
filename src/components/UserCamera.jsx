@@ -1,10 +1,10 @@
 import { PerspectiveCamera, useHelper } from "@react-three/drei";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import * as THREE from "three";
 
 import { PointerLockControls } from "@react-three/drei";
 
-export default function UserCamera(props) {
+export default function UserCamera() {
   const userCamera = useRef();
   useHelper(userCamera, THREE.CameraHelper);
 
@@ -16,7 +16,7 @@ export default function UserCamera(props) {
       aspect={window.innerWidth / window.innerHeight}
       near={1}
       far={50}
-      position={[0, 2, 15]}
+      position={[0, 2, 0]}
     >
       <PointerLockControls />
     </PerspectiveCamera>

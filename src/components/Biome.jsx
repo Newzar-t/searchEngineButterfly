@@ -4,6 +4,13 @@ import Butterfly from "./Butterfly";
 import { useEffect, useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import Path from "./Path";
+import BiomeBox from "./BiomeBox";
+/* 
+const curvePointsArray = [
+{
+
+}
+] */
 
 function animateMovement(obj, path, time) {
   const movement = () => {
@@ -29,6 +36,7 @@ function Biome() {
     <>
       <Butterfly reference={butterflyRef} />
       <Path reference={pathRef} />
+      <BiomeBox></BiomeBox>
       <Ground></Ground>
     </>
   );
