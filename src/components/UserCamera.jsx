@@ -5,24 +5,21 @@ import {
 } from "@react-three/drei";
 import { useEffect, useRef } from "react";
 import * as THREE from "three";
-/* 
-import { OrbitControls } from "@react-three/drei"; */
-import { useFrame } from "@react-three/fiber";
+
+import { OrbitControls } from "@react-three/drei";
+
+const cameraTarget = new THREE.Vector3(8.1, 1.5, 0);
+const controlsTarget = new THREE.Vector3(8.1, 1.5, 0);
 
 export default function UserCamera() {
   const userCamera = useRef();
-  /*   const controls = useRef(); */
+  const controls = useRef();
   useHelper(userCamera, THREE.CameraHelper);
 
-  useFrame((state) => {
-    let mouseX = state.pointer.x;
-    let mouseY = state.pointer.y;
-
-    console.log(mouseX * 2, mouseY * 2);
-
-    userCamera.current.rotation.y = Math.min(-(mouseX * 2), 1.5);
-    userCamera.current.rotation.x = Math.min(mouseY * 2, 1.5);
-  });
+  useEffect(() => {
+    userCamera.current.lookAt(cameraTarget);
+    controls.current.target = controlsTarget;
+  }, []);
 
   return (
     <PerspectiveCamera
@@ -30,11 +27,11 @@ export default function UserCamera() {
       ref={userCamera}
       fov={75}
       aspect={window.innerWidth / window.innerHeight}
-      near={0.1}
+      near={5}
       far={50}
-      position={[0, 2, 0]}
+      position={[8, 1.5, 0]}
     >
-      {/*       <PresentationControls ref={controls} /> */}
+      <OrbitControls ref={controls} />
     </PerspectiveCamera>
   );
 }

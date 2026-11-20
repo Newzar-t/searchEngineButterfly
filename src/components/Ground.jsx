@@ -5,7 +5,7 @@ import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 function Model() {
   const gltf = useLoader(GLTFLoader, "/src/assets/prototypeBiome.glb");
 
-  gltf.scene.position.set(0, 0, 0);
+  gltf.scene.position.set(0, -5, 0);
 
   return <primitive object={gltf.scene}></primitive>;
 }
