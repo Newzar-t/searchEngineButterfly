@@ -3,7 +3,7 @@ import { useGLTF } from "@react-three/drei";
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 
 function Model() {
-  const gltf = useLoader(GLTFLoader, "/src/assets/groundTest.glb");
+  const gltf = useLoader(GLTFLoader, "/src/assets/prototypeBiome.glb");
 
   gltf.scene.position.set(0, 0, 0);
 
@@ -14,4 +14,4 @@ export default function Ground() {
   return <Model />;
 }
 
-useGLTF.preload("/src/assets/groundTest.glb");
+useGLTF.preload("/src/assets/prototypeBiome.glb");
