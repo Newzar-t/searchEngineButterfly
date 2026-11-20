@@ -1,6 +1,15 @@
-.select-group {
+.search-area {
   position: absolute;
   top: 2%;
   left: 2%;
   z-index: 1;
+  width: 25%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.select-group {
+  position: relative;
 }

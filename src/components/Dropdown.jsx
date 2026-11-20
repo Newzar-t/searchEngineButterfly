@@ -1,16 +1,17 @@
-function Dropdown() {
+function Dropdown(props) {
+  const optionsNumber = props.optionsNumber;
   return (
-    <div className="select-group">
-      <label htmlFor="select-hint">Species</label>
-      <select className="select">
-        <option value={"1"} selected disabled>
-          Choose a specie
-        </option>
-        <option value={"2"}>Specie 1</option>
-        <option value={"3"}>Specie 2</option>
-        <option value={"4"}>Specie 4</option>
-      </select>
-    </div>
+    <select name={props.queryName} className="select" id={props.id}>
+      <option defaultValue selected disabled>
+        {props.placeholder}
+      </option>
+{/*       {for(let i = 0; i < optionsNumber; i++){
+        return()
+      }} */}
+      <option value={props.value1}>{props.value1}</option>
+      <option value={props.value2}>{props.value2}</option>
+      <option value={props.value3}>{props.value3}</option>
+    </select>
   );
 }
 

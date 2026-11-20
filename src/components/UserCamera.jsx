@@ -31,7 +31,7 @@ export default function UserCamera() {
       far={50}
       position={[8, 1.5, 0]}
     >
-      <OrbitControls ref={controls} />
+      <OrbitControls ref={controls} enableZoom={false} />
     </PerspectiveCamera>
   );
 }
