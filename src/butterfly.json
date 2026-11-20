@@ -1,32 +1,623 @@
 [
-  {"nom": "Machaon", "nom_scientifique": "Papilio machaon", "familles": ["Papilionidae"], "continent": ["Europe", "Asie", "Afrique", "Amérique du Nord"], "habitat": ["prairie", "zone humide", "pelouse sèche"], "couleur": ["jaune", "noir", "bleu", "rouge"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Papilio_machaon"},
-  {"nom": "Flambé", "nom_scientifique": "Iphiclides podalirius", "familles": ["Papilionidae"], "continent": ["Europe", "Asie", "Afrique"], "habitat": ["lisière", "pelouse sèche", "jardin"], "couleur": ["jaune", "noir", "bleu"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Iphiclides_podalirius"},
-  {"nom": "Apollon", "nom_scientifique": "Parnassius apollo", "familles": ["Papilionidae"], "continent": ["Europe", "Asie"], "habitat": ["montagne"], "couleur": ["blanc", "noir", "rouge"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Parnassius_apollo"},
-  {"nom": "Ornithoptère de la reine Alexandra", "nom_scientifique": "Ornithoptera alexandrae", "familles": ["Papilionidae"], "continent": ["Océanie"], "habitat": ["forêt tropicale"], "couleur": ["vert", "bleu", "noir", "brun", "blanc"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Ornithoptera_alexandrae"},
-  {"nom": "Papillon Ulysse", "nom_scientifique": "Papilio ulysses", "familles": ["Papilionidae"], "continent": ["Océanie"], "habitat": ["forêt tropicale", "jardin"], "couleur": ["bleu", "noir"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Papilio_ulysses"},
-  {"nom": "Piéride du chou", "nom_scientifique": "Pieris brassicae", "familles": ["Pieridae"], "continent": ["Europe", "Asie", "Afrique"], "habitat": ["jardin", "prairie"], "couleur": ["blanc", "noir", "jaune"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Pieris_brassicae"},
-  {"nom": "Citron", "nom_scientifique": "Gonepteryx rhamni", "familles": ["Pieridae"], "continent": ["Europe", "Asie", "Afrique"], "habitat": ["lisière", "forêt"], "couleur": ["jaune", "vert"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Gonepteryx_rhamni"},
-  {"nom": "Aurore", "nom_scientifique": "Anthocharis cardamines", "familles": ["Pieridae"], "continent": ["Europe", "Asie"], "habitat": ["prairie", "zone humide", "lisière"], "couleur": ["blanc", "orange", "vert"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Anthocharis_cardamines"},
-  {"nom": "Souci", "nom_scientifique": "Colias croceus", "familles": ["Pieridae"], "continent": ["Europe", "Asie", "Afrique"], "habitat": ["prairie", "jardin"], "couleur": ["jaune", "orange", "noir"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Colias_croceus"},
-  {"nom": "Gazé", "nom_scientifique": "Aporia crataegi", "familles": ["Pieridae"], "continent": ["Europe", "Asie", "Afrique"], "habitat": ["lisière", "jardin"], "couleur": ["blanc", "noir"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Aporia_crataegi"},
-  {"nom": "Vulcain", "nom_scientifique": "Vanessa atalanta", "familles": ["Nymphalidae"], "continent": ["Europe", "Asie", "Afrique", "Amérique du Nord"], "habitat": ["jardin", "lisière", "zone humide"], "couleur": ["noir", "rouge", "blanc"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Vanessa_atalanta"},
-  {"nom": "Paon-du-jour", "nom_scientifique": "Aglais io", "familles": ["Nymphalidae"], "continent": ["Europe", "Asie"], "habitat": ["jardin", "lisière", "prairie"], "couleur": ["rouge", "noir", "bleu", "jaune"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Aglais_io"},
-  {"nom": "Belle-Dame", "nom_scientifique": "Vanessa cardui", "familles": ["Nymphalidae"], "continent": ["Europe", "Asie", "Afrique", "Amérique du Nord"], "habitat": ["prairie", "jardin"], "couleur": ["orange", "noir", "blanc"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Vanessa_cardui"},
-  {"nom": "Monarque", "nom_scientifique": "Danaus plexippus", "familles": ["Nymphalidae"], "continent": ["Amérique du Nord", "Amérique du Sud", "Océanie"], "habitat": ["prairie", "montagne"], "couleur": ["orange", "noir", "blanc"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Danaus_plexippus"},
-  {"nom": "Petite Tortue", "nom_scientifique": "Aglais urticae", "familles": ["Nymphalidae"], "continent": ["Europe", "Asie"], "habitat": ["prairie", "jardin", "lisière"], "couleur": ["orange", "noir", "bleu"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Aglais_urticae"},
-  {"nom": "Tabac d'Espagne", "nom_scientifique": "Argynnis paphia", "familles": ["Nymphalidae"], "continent": ["Europe", "Asie", "Afrique"], "habitat": ["forêt", "lisière"], "couleur": ["orange", "noir", "vert"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Argynnis_paphia"},
-  {"nom": "Grand Mars changeant", "nom_scientifique": "Apatura iris", "familles": ["Nymphalidae"], "continent": ["Europe", "Asie"], "habitat": ["forêt", "lisière"], "couleur": ["bleu", "brun", "blanc"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Apatura_iris"},
-  {"nom": "Morpho menelaus", "nom_scientifique": "Morpho menelaus", "familles": ["Nymphalidae"], "continent": ["Amérique du Sud"], "habitat": ["forêt tropicale"], "couleur": ["bleu", "noir", "brun"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Morpho_menelaus"},
-  {"nom": "Héliconie mélpomène", "nom_scientifique": "Heliconius melpomene", "familles": ["Nymphalidae"], "continent": ["Amérique du Sud", "Amérique du Nord"], "habitat": ["forêt tropicale", "lisière"], "couleur": ["noir", "rouge", "jaune"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Heliconius_melpomene"},
-  {"nom": "Myrtil", "nom_scientifique": "Maniola jurtina", "familles": ["Nymphalidae"], "continent": ["Europe", "Asie", "Afrique"], "habitat": ["prairie", "pelouse sèche", "lisière"], "couleur": ["brun", "orange"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Maniola_jurtina"},
-  {"nom": "Tircis", "nom_scientifique": "Pararge aegeria", "familles": ["Nymphalidae"], "continent": ["Europe", "Asie", "Afrique"], "habitat": ["forêt", "lisière", "jardin"], "couleur": ["brun", "jaune"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Pararge_aegeria"},
-  {"nom": "Azuré bleu céleste", "nom_scientifique": "Polyommatus bellargus", "familles": ["Lycaenidae"], "continent": ["Europe", "Asie", "Afrique"], "habitat": ["pelouse sèche"], "couleur": ["bleu", "brun", "blanc"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Polyommatus_bellargus"},
-  {"nom": "Azuré commun", "nom_scientifique": "Polyommatus icarus", "familles": ["Lycaenidae"], "continent": ["Europe", "Asie", "Afrique"], "habitat": ["prairie", "pelouse sèche"], "couleur": ["bleu", "brun", "orange"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Polyommatus_icarus"},
-  {"nom": "Cuivré commun", "nom_scientifique": "Lycaena phlaeas", "familles": ["Lycaenidae"], "continent": ["Europe", "Asie", "Afrique", "Amérique du Nord"], "habitat": ["prairie", "pelouse sèche"], "couleur": ["orange", "brun", "noir"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Lycaena_phlaeas"},
-  {"nom": "Azuré des nerpruns", "nom_scientifique": "Celastrina argiolus", "familles": ["Lycaenidae"], "continent": ["Europe", "Asie", "Afrique", "Amérique du Nord"], "habitat": ["lisière", "jardin", "forêt"], "couleur": ["bleu", "blanc"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Celastrina_argiolus"},
-  {"nom": "Lucine", "nom_scientifique": "Hamearis lucina", "familles": ["Riodinidae"], "continent": ["Europe"], "habitat": ["lisière", "forêt"], "couleur": ["brun", "orange"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Hamearis_lucina"},
-  {"nom": "Hespérie de la Mauve", "nom_scientifique": "Pyrgus malvae", "familles": ["Hesperiidae"], "continent": ["Europe", "Asie"], "habitat": ["prairie", "pelouse sèche", "lisière"], "couleur": ["brun", "blanc"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Pyrgus_malvae"},
-  {"nom": "Virgule", "nom_scientifique": "Hesperia comma", "familles": ["Hesperiidae"], "continent": ["Europe", "Asie", "Amérique du Nord"], "habitat": ["pelouse sèche"], "couleur": ["brun", "orange", "blanc"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Hesperia_comma"},
-  {"nom": "Grand Paon de nuit", "nom_scientifique": "Saturnia pyri", "familles": ["Saturniidae"], "continent": ["Europe", "Asie", "Afrique"], "habitat": ["jardin", "lisière", "pelouse sèche"], "couleur": ["brun", "blanc"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Saturnia_pyri"},
-  {"nom": "Sphinx de la vigne", "nom_scientifique": "Deilephila elpenor", "familles": ["Sphingidae"], "continent": ["Europe", "Asie"], "habitat": ["prairie", "lisière", "jardin", "zone humide"], "couleur": ["rouge", "vert"], "page_wikipedia": "https://fr.wikipedia.org/wiki/Deilephila_elpenor"}
+  {
+    "name": "Machaon",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa",
+      "North America"
+    ],
+    "families": [
+      "Papilionidae"
+    ],
+    "habitats": [
+      "meadow",
+      "wetland",
+      "dry grassland"
+    ],
+    "colors": [
+      "yellow",
+      "black",
+      "blue",
+      "red"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Papilio_machaon"
+  },
+  {
+    "name": "Flambé",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Papilionidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "dry grassland",
+      "garden"
+    ],
+    "colors": [
+      "yellow",
+      "black",
+      "blue"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Iphiclides_podalirius"
+  },
+  {
+    "name": "Apollon",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Papilionidae"
+    ],
+    "habitats": [
+      "mountain"
+    ],
+    "colors": [
+      "white",
+      "black",
+      "red"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Parnassius_apollo"
+  },
+  {
+    "name": "Ornithoptère de la reine Alexandra",
+    "places": [
+      "Oceania"
+    ],
+    "families": [
+      "Papilionidae"
+    ],
+    "habitats": [
+      "tropical forest"
+    ],
+    "colors": [
+      "green",
+      "blue",
+      "black",
+      "brown",
+      "white"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ornithoptera_alexandrae"
+  },
+  {
+    "name": "Papillon Ulysse",
+    "places": [
+      "Oceania"
+    ],
+    "families": [
+      "Papilionidae"
+    ],
+    "habitats": [
+      "tropical forest",
+      "garden"
+    ],
+    "colors": [
+      "blue",
+      "black"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Papilio_ulysses"
+  },
+  {
+    "name": "Piéride du chou",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Pieridae"
+    ],
+    "habitats": [
+      "garden",
+      "meadow"
+    ],
+    "colors": [
+      "white",
+      "black",
+      "yellow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Pieris_brassicae"
+  },
+  {
+    "name": "Citron",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Pieridae"
+    ],
+    "habitats": [
+      "forest edge",
+      "forest"
+    ],
+    "colors": [
+      "yellow",
+      "green"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Gonepteryx_rhamni"
+  },
+  {
+    "name": "Aurore",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Pieridae"
+    ],
+    "habitats": [
+      "meadow",
+      "wetland",
+      "forest edge"
+    ],
+    "colors": [
+      "white",
+      "orange",
+      "green"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Anthocharis_cardamines"
+  },
+  {
+    "name": "Souci",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Pieridae"
+    ],
+    "habitats": [
+      "meadow",
+      "garden"
+    ],
+    "colors": [
+      "yellow",
+      "orange",
+      "black"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Colias_croceus"
+  },
+  {
+    "name": "Gazé",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Pieridae"
+    ],
+    "habitats": [
+      "forest edge",
+      "garden"
+    ],
+    "colors": [
+      "white",
+      "black"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Aporia_crataegi"
+  },
+  {
+    "name": "Vulcain",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa",
+      "North America"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "garden",
+      "forest edge",
+      "wetland"
+    ],
+    "colors": [
+      "black",
+      "red",
+      "white"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Vanessa_atalanta"
+  },
+  {
+    "name": "Paon-du-jour",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "garden",
+      "forest edge",
+      "meadow"
+    ],
+    "colors": [
+      "red",
+      "black",
+      "blue",
+      "yellow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Aglais_io"
+  },
+  {
+    "name": "Belle-Dame",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa",
+      "North America"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "meadow",
+      "garden"
+    ],
+    "colors": [
+      "orange",
+      "black",
+      "white"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Vanessa_cardui"
+  },
+  {
+    "name": "Monarque",
+    "places": [
+      "North America",
+      "South America",
+      "Oceania"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "meadow",
+      "mountain"
+    ],
+    "colors": [
+      "orange",
+      "black",
+      "white"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Danaus_plexippus"
+  },
+  {
+    "name": "Petite Tortue",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "meadow",
+      "garden",
+      "forest edge"
+    ],
+    "colors": [
+      "orange",
+      "black",
+      "blue"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Aglais_urticae"
+  },
+  {
+    "name": "Tabac d'Espagne",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest",
+      "forest edge"
+    ],
+    "colors": [
+      "orange",
+      "black",
+      "green"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Argynnis_paphia"
+  },
+  {
+    "name": "Grand Mars changeant",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest",
+      "forest edge"
+    ],
+    "colors": [
+      "blue",
+      "brown",
+      "white"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Apatura_iris"
+  },
+  {
+    "name": "Morpho menelaus",
+    "places": [
+      "South America"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "tropical forest"
+    ],
+    "colors": [
+      "blue",
+      "black",
+      "brown"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Morpho_menelaus"
+  },
+  {
+    "name": "Héliconie mélpomène",
+    "places": [
+      "South America",
+      "North America"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "tropical forest",
+      "forest edge"
+    ],
+    "colors": [
+      "black",
+      "red",
+      "yellow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Heliconius_melpomene"
+  },
+  {
+    "name": "Myrtil",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "meadow",
+      "dry grassland",
+      "forest edge"
+    ],
+    "colors": [
+      "brown",
+      "orange"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Maniola_jurtina"
+  },
+  {
+    "name": "Tircis",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest",
+      "forest edge",
+      "garden"
+    ],
+    "colors": [
+      "brown",
+      "yellow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Pararge_aegeria"
+  },
+  {
+    "name": "Azuré bleu céleste",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "dry grassland"
+    ],
+    "colors": [
+      "blue",
+      "brown",
+      "white"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Polyommatus_bellargus"
+  },
+  {
+    "name": "Azuré commun",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "meadow",
+      "dry grassland"
+    ],
+    "colors": [
+      "blue",
+      "brown",
+      "orange"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Polyommatus_icarus"
+  },
+  {
+    "name": "Cuivré commun",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa",
+      "North America"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "meadow",
+      "dry grassland"
+    ],
+    "colors": [
+      "orange",
+      "brown",
+      "black"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Lycaena_phlaeas"
+  },
+  {
+    "name": "Azuré des nerpruns",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa",
+      "North America"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "garden",
+      "forest"
+    ],
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Celastrina_argiolus"
+  },
+  {
+    "name": "Lucine",
+    "places": [
+      "Europe"
+    ],
+    "families": [
+      "Riodinidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "forest"
+    ],
+    "colors": [
+      "brown",
+      "orange"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Hamearis_lucina"
+  },
+  {
+    "name": "Hespérie de la Mauve",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Hesperiidae"
+    ],
+    "habitats": [
+      "meadow",
+      "dry grassland",
+      "forest edge"
+    ],
+    "colors": [
+      "brown",
+      "white"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Pyrgus_malvae"
+  },
+  {
+    "name": "Virgule",
+    "places": [
+      "Europe",
+      "Asia",
+      "North America"
+    ],
+    "families": [
+      "Hesperiidae"
+    ],
+    "habitats": [
+      "dry grassland"
+    ],
+    "colors": [
+      "brown",
+      "orange",
+      "white"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Hesperia_comma"
+  },
+  {
+    "name": "Grand Paon de nuit",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Saturniidae"
+    ],
+    "habitats": [
+      "garden",
+      "forest edge",
+      "dry grassland"
+    ],
+    "colors": [
+      "brown",
+      "white"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Saturnia_pyri"
+  },
+  {
+    "name": "Sphinx de la vigne",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Sphingidae"
+    ],
+    "habitats": [
+      "meadow",
+      "forest edge",
+      "garden",
+      "wetland"
+    ],
+    "colors": [
+      "red",
+      "green"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Deilephila_elpenor"
+  }
 ]

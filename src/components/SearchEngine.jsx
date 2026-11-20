@@ -15,114 +15,71 @@ function SearchEngine() {
   }
 
   const places = [
-    {
-      name: "Europe",
-    },
-    {
-      name: "Asie",
-    },
-    {
-      name: "Afrique",
-    },
-    {
-      name: "Amérique du Nord",
-    },
-    {
-      name: "Amérique du Sud",
-    },
-    {
-      name: "Océanie",
-    },
+    { name: "Europe" },
+    { name: "Asia" },
+    { name: "Africa" },
+    { name: "North America" },
+    { name: "South America" },
+    { name: "Oceania" },
   ];
 
   const families = [
-    {
-      name: "Papilionidae",
-    },
-    {
-      name: "Pieridae",
-    },
-    {
-      name: "Nymphalidae",
-    },
-    {
-      name: "Lycaenidae",
-    },
-    {
-      name: "Riodinidae",
-    },
-    {
-      name: "Hesperiidae",
-    },
-    {
-      name: "Saturniidae",
-    },
-    {
-      name: "Sphingidae",
-    },
+    { name: "Papilionidae" },
+    { name: "Pieridae" },
+    { name: "Nymphalidae" },
+    { name: "Lycaenidae" },
+    { name: "Riodinidae" },
+    { name: "Hesperiidae" },
+    { name: "Saturniidae" },
+    { name: "Sphingidae" },
   ];
 
   const habitats = [
-    {
-      name: "prairie",
-    },
-    {
-      name: "pelouse sèche",
-    },
-    {
-      name: "forêt",
-    },
-    {
-      name: "lisière",
-    },
-    {
-      name: "zone humide",
-    },
-    {
-      name: "montagne",
-    },
-    {
-      name: "jardin",
-    },
-    {
-      name: "forêt tropicale",
-    },
+    { name: "meadow" },
+    { name: "dry grassland" },
+    { name: "forest" },
+    { name: "forest edge" },
+    { name: "wetland" },
+    { name: "mountain" },
+    { name: "garden" },
+    { name: "tropical forest" },
   ];
 
   const colors = [
-    {
-      name: "blanc",
-    },
-    {
-      name: "jaune",
-    },
-    {
-      name: "orange",
-    },
-    {
-      name: "rouge",
-    },
-    {
-      name: "bleu",
-    },
-    {
-      name: "vert",
-    },
-    {
-      name: "brun",
-    },
-    {
-      name: "noir",
-    },
+    { name: "white" },
+    { name: "yellow" },
+    { name: "orange" },
+    { name: "red" },
+    { name: "blue" },
+    { name: "green" },
+    { name: "brown" },
+    { name: "black" },
   ];
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    searchRequest();
     const form = event.target;
     const formData = new FormData(form);
-    const query = formData.getAll("query");
-    searchRequest();
-    console.log(datas);
+    const queryPlaces = formData.get("queryPlaces");
+    const queryFamilies = formData.get("queryFamilies");
+    const queryHabitats = formData.get("queryHabitats");
+    const queryColors = formData.get("queryColors");
+    const globalQuery = {
+      queryPlaces,
+      queryFamilies,
+      queryHabitats,
+      queryColors,
+    };
+    const results = datas.filter(
+      (item) =>
+        item.places.includes(globalQuery.queryPlaces) &&
+        item.families.includes(globalQuery.queryFamilies) &&
+        item.habitats.includes(globalQuery.queryHabitats) &&
+        item.colors.includes(globalQuery.queryColors),
+    );
+
+    console.log(results);
   };
 
   return (
@@ -132,7 +89,7 @@ function SearchEngine() {
       </label>
       <Dropdown
         id={"selectSpecies"}
-        queryName={"query"}
+        queryName={"queryFamilies"}
         label={"family"}
         placeholder={"Choose a family"}
         options={families}
@@ -144,7 +101,7 @@ function SearchEngine() {
       <Dropdown
         id={"selectPlace"}
         label={"Place"}
-        queryName={"query"}
+        queryName={"queryPlaces"}
         placeholder={"Choose a place"}
         options={places}
       />
@@ -155,7 +112,7 @@ function SearchEngine() {
       <Dropdown
         id={"selectColors"}
         label={"Colors"}
-        queryName={"query"}
+        queryName={"queryColors"}
         placeholder={"Choose a color"}
         options={colors}
       />
@@ -166,7 +123,7 @@ function SearchEngine() {
       <Dropdown
         id={"selectHabitats"}
         label={"habitats"}
-        queryName={"query"}
+        queryName={"queryHabitats"}
         placeholder={"Habitats"}
         options={habitats}
       />
