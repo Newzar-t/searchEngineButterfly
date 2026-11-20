@@ -1,5 +1,11 @@
+import Dropdown from "./Dropdown";
+
 function SearchEngine() {
-  return <input className="searchInput" type="text" name="search" />;
+  return (
+    <>
+      <Dropdown />
+    </>
+  );
 }
 
 export default SearchEngine;
