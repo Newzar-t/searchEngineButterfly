@@ -71,6 +71,7 @@ function SearchEngine() {
       queryHabitats,
       queryColors,
     };
+
     const results = datas.filter(
       (item) =>
         item.places.includes(globalQuery.queryPlaces) &&
@@ -78,6 +79,7 @@ function SearchEngine() {
         item.habitats.includes(globalQuery.queryHabitats) &&
         item.colors.includes(globalQuery.queryColors),
     );
+
 
     console.log(results);
   };
