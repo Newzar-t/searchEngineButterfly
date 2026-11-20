@@ -1,6 +1,29 @@
 import Dropdown from "./Dropdown";
 
 function SearchEngine() {
+  const places = [
+    {
+      name: "Europe",
+    },
+    {
+      name: "Asia",
+    },
+    {
+      name: "America",
+    },
+  ];
+
+  const species = [
+    {
+      name: "Papillon",
+    },
+    {
+      name: "Paodozk",
+    },
+    {
+      name: "Pokeov",
+    },
+  ];
   const handleSubmit = (event) => {
     event.preventDefault();
     const form = event.target;
@@ -19,9 +42,7 @@ function SearchEngine() {
         queryName={"querySpecies"}
         label={"Species"}
         placeholder={"Choose a species"}
-        value1={"Species1"}
-        value2={"Species2"}
-        value3={"Species3"}
+        options={species}
       />
 
       <label htmlFor="Place" name="Place">
@@ -32,9 +53,7 @@ function SearchEngine() {
         label={"Place"}
         queryName={"queryPlaces"}
         placeholder={"Choose a place"}
-        value1={"Europe"}
-        value2={"America"}
-        value3={"Asia"}
+        options={places}
       />
 
       <input type="submit" name="Search" />
