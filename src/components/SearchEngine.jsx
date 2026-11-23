@@ -3,7 +3,7 @@ import Dropdown from "./Dropdown";
 
 function SearchEngine() {
   const [datas, setDatas] = useState([]);
-  const [request, setRequest] = useState([]);
+  const [searchResults, setSearchResults] = useState([]);
 
   async function searchRequest() {
     try {
@@ -33,6 +33,10 @@ function SearchEngine() {
     { name: "Hesperiidae" },
     { name: "Saturniidae" },
     { name: "Sphingidae" },
+    { name: "Erebidae" },
+    { name: "Geometridae" },
+    { name: "Noctuidae" },
+    { name: "Lasiocampidae" },
   ];
 
   const habitats = [
@@ -46,7 +50,8 @@ function SearchEngine() {
     { name: "tropical forest" },
   ];
 
-  const handleSubmit = (event) => {
+  const HandleSubmit = (event) => {
+    event.preventDefault();
     event.preventDefault();
     searchRequest();
     const form = event.target;
@@ -60,19 +65,20 @@ function SearchEngine() {
       queryHabitats,
     };
 
-    const results = datas.filter(
-      (item) =>
-        item.places.includes(globalQuery.queryPlaces) &&
-        item.families.includes(globalQuery.queryFamilies) &&
-        item.habitats.includes(globalQuery.queryHabitats),
+    setSearchResults(
+      datas.filter(
+        (item) =>
+          item.places.includes(globalQuery.queryPlaces) &&
+          item.families.includes(globalQuery.queryFamilies) &&
+          item.habitats.includes(globalQuery.queryHabitats),
+      ),
     );
-    setRequest(results);
 
-    console.log(request);
+    return searchResults;
   };
 
   return (
-    <form className="search-area" onSubmit={handleSubmit}>
+    <form className="search-area" onSubmit={HandleSubmit}>
       <label htmlFor="species" name="species">
         families
       </label>

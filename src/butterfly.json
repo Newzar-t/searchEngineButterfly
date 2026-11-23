@@ -475,5 +475,1841 @@
       "wetland"
     ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Deilephila_elpenor"
+  },
+  {
+    "name": "Diane",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Papilionidae"
+    ],
+    "habitats": [
+      "meadow",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Zerynthia_polyxena"
+  },
+  {
+    "name": "Proserpine",
+    "places": [
+      "Europe",
+      "Africa"
+    ],
+    "families": [
+      "Papilionidae"
+    ],
+    "habitats": [
+      "dry grassland",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Zerynthia_rumina"
+  },
+  {
+    "name": "Alexanor",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Papilionidae"
+    ],
+    "habitats": [
+      "mountain",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Papilio_alexanor"
+  },
+  {
+    "name": "Semi-Apollon",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Papilionidae"
+    ],
+    "habitats": [
+      "mountain",
+      "meadow",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Parnassius_mnemosyne"
+  },
+  {
+    "name": "Papilio glaucus",
+    "places": [
+      "North America"
+    ],
+    "families": [
+      "Papilionidae"
+    ],
+    "habitats": [
+      "forest",
+      "forest edge",
+      "garden"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Papilio_glaucus"
+  },
+  {
+    "name": "Papilio cresphontes",
+    "places": [
+      "North America"
+    ],
+    "families": [
+      "Papilionidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "garden"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Papilio_cresphontes"
+  },
+  {
+    "name": "Papilio dardanus",
+    "places": [
+      "Africa"
+    ],
+    "families": [
+      "Papilionidae"
+    ],
+    "habitats": [
+      "forest",
+      "forest edge",
+      "garden"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Papilio_dardanus"
+  },
+  {
+    "name": "Papilio xuthus",
+    "places": [
+      "Asia"
+    ],
+    "families": [
+      "Papilionidae"
+    ],
+    "habitats": [
+      "garden",
+      "meadow",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Papilio_xuthus"
+  },
+  {
+    "name": "Graphium sarpedon",
+    "places": [
+      "Asia",
+      "Oceania"
+    ],
+    "families": [
+      "Papilionidae"
+    ],
+    "habitats": [
+      "tropical forest",
+      "forest edge",
+      "garden"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Graphium_sarpedon"
+  },
+  {
+    "name": "Piéride de la rave",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Pieridae"
+    ],
+    "habitats": [
+      "garden",
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Pieris_rapae"
+  },
+  {
+    "name": "Piéride du navet",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa",
+      "North America"
+    ],
+    "families": [
+      "Pieridae"
+    ],
+    "habitats": [
+      "meadow",
+      "wetland",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Pieris_napi"
+  },
+  {
+    "name": "Marbré-de-vert",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Pieridae"
+    ],
+    "habitats": [
+      "meadow",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Pontia_daplidice"
+  },
+  {
+    "name": "Piéride du lotier",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Pieridae"
+    ],
+    "habitats": [
+      "forest edge",
+      "meadow",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Leptidea_sinapis"
+  },
+  {
+    "name": "Soufré",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Pieridae"
+    ],
+    "habitats": [
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Colias_hyale"
+  },
+  {
+    "name": "Fluoré",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Pieridae"
+    ],
+    "habitats": [
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Colias_alfacariensis"
+  },
+  {
+    "name": "Solitaire",
+    "places": [
+      "Europe",
+      "Asia",
+      "North America"
+    ],
+    "families": [
+      "Pieridae"
+    ],
+    "habitats": [
+      "wetland",
+      "mountain"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Colias_palaeno"
+  },
+  {
+    "name": "Citron de Provence",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Pieridae"
+    ],
+    "habitats": [
+      "dry grassland",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Gonepteryx_cleopatra"
+  },
+  {
+    "name": "Aurore de Provence",
+    "places": [
+      "Europe",
+      "Africa"
+    ],
+    "families": [
+      "Pieridae"
+    ],
+    "habitats": [
+      "dry grassland",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Anthocharis_euphenoides"
+  },
+  {
+    "name": "Eurema hecabe",
+    "places": [
+      "Asia",
+      "Africa",
+      "Oceania"
+    ],
+    "families": [
+      "Pieridae"
+    ],
+    "habitats": [
+      "meadow",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Eurema_hecabe"
+  },
+  {
+    "name": "Phoebis sennae",
+    "places": [
+      "North America",
+      "South America"
+    ],
+    "families": [
+      "Pieridae"
+    ],
+    "habitats": [
+      "garden",
+      "meadow",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Phoebis_sennae"
+  },
+  {
+    "name": "Morio",
+    "places": [
+      "Europe",
+      "Asia",
+      "North America"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest",
+      "forest edge",
+      "wetland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Nymphalis_antiopa"
+  },
+  {
+    "name": "Grande Tortue",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Nymphalis_polychloros"
+  },
+  {
+    "name": "Robert-le-Diable",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "garden",
+      "forest"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Polygonia_c-album"
+  },
+  {
+    "name": "Carte géographique",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "wetland",
+      "forest"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Araschnia_levana"
+  },
+  {
+    "name": "Petit Nacré",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "meadow",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Issoria_lathonia"
+  },
+  {
+    "name": "Cardinal",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "dry grassland",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Argynnis_pandora"
+  },
+  {
+    "name": "Grand Nacré",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "meadow",
+      "forest edge",
+      "mountain"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Argynnis_aglaja"
+  },
+  {
+    "name": "Grand Collier argenté",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Boloria_euphrosyne"
+  },
+  {
+    "name": "Petit Collier argenté",
+    "places": [
+      "Europe",
+      "Asia",
+      "North America"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "wetland",
+      "meadow",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Boloria_selene"
+  },
+  {
+    "name": "Nacré de la sanguisorbe",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "wetland",
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Brenthis_ino"
+  },
+  {
+    "name": "Mélitée du plantain",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "meadow",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Melitaea_cinxia"
+  },
+  {
+    "name": "Mélitée orangée",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "dry grassland",
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Melitaea_didyma"
+  },
+  {
+    "name": "Mélitée du mélampyre",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Melitaea_athalia"
+  },
+  {
+    "name": "Damier de la succise",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "wetland",
+      "meadow",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Euphydryas_aurinia"
+  },
+  {
+    "name": "Petit Sylvain",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Limenitis_camilla"
+  },
+  {
+    "name": "Grand Sylvain",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Limenitis_populi"
+  },
+  {
+    "name": "Sylvain azuré",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "forest"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Limenitis_reducta"
+  },
+  {
+    "name": "Petit Mars changeant",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest",
+      "wetland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Apatura_ilia"
+  },
+  {
+    "name": "Jason",
+    "places": [
+      "Europe",
+      "Africa"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Charaxes_jasius"
+  },
+  {
+    "name": "Échancré",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Libythea_celtis"
+  },
+  {
+    "name": "Demi-deuil",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "meadow",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Melanargia_galathea"
+  },
+  {
+    "name": "Tristan",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "meadow",
+      "forest edge",
+      "wetland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Aphantopus_hyperantus"
+  },
+  {
+    "name": "Fadet commun",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "meadow",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Coenonympha_pamphilus"
+  },
+  {
+    "name": "Mégère",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "dry grassland",
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Lasiommata_megera"
+  },
+  {
+    "name": "Némusien",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "mountain",
+      "dry grassland",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Lasiommata_maera"
+  },
+  {
+    "name": "Agreste",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Hipparchia_semele"
+  },
+  {
+    "name": "Sylvandre",
+    "places": [
+      "Europe"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Hipparchia_fagi"
+  },
+  {
+    "name": "Grand Nègre des bois",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "wetland",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Minois_dryas"
+  },
+  {
+    "name": "Moiré blanc-fascié",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "mountain",
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Erebia_ligea"
+  },
+  {
+    "name": "Moiré sylvicole",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "mountain"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Erebia_aethiops"
+  },
+  {
+    "name": "Dryas iulia",
+    "places": [
+      "North America",
+      "South America"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "garden",
+      "tropical forest"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Dryas_iulia"
+  },
+  {
+    "name": "Agraulis vanillae",
+    "places": [
+      "North America",
+      "South America"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "garden",
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Agraulis_vanillae"
+  },
+  {
+    "name": "Heliconius charithonia",
+    "places": [
+      "North America",
+      "South America"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "tropical forest",
+      "garden"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Heliconius_charithonia"
+  },
+  {
+    "name": "Petit Monarque",
+    "places": [
+      "Africa",
+      "Asia",
+      "Oceania"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "meadow",
+      "garden"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Danaus_chrysippus"
+  },
+  {
+    "name": "Idea leuconoe",
+    "places": [
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "tropical forest",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Idea_leuconoe"
+  },
+  {
+    "name": "Euploea core",
+    "places": [
+      "Asia",
+      "Oceania"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "garden"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Euploea_core"
+  },
+  {
+    "name": "Morpho peleides",
+    "places": [
+      "North America",
+      "South America"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "tropical forest"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Morpho_peleides"
+  },
+  {
+    "name": "Morpho achilles",
+    "places": [
+      "South America"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "tropical forest"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Morpho_achilles"
+  },
+  {
+    "name": "Caligo memnon",
+    "places": [
+      "North America",
+      "South America"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "tropical forest"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Caligo_memnon"
+  },
+  {
+    "name": "Greta oto",
+    "places": [
+      "North America"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "tropical forest"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Greta_oto"
+  },
+  {
+    "name": "Belle-Dame américaine",
+    "places": [
+      "North America",
+      "South America"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "meadow",
+      "garden"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Vanessa_virginiensis"
+  },
+  {
+    "name": "Junonia coenia",
+    "places": [
+      "North America"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "meadow",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Junonia_coenia"
+  },
+  {
+    "name": "Hypolimnas bolina",
+    "places": [
+      "Asia",
+      "Oceania"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "garden",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Hypolimnas_bolina"
+  },
+  {
+    "name": "Kallima inachus",
+    "places": [
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "tropical forest"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Kallima_inachus"
+  },
+  {
+    "name": "Siproeta stelenes",
+    "places": [
+      "North America",
+      "South America"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "tropical forest",
+      "garden"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Siproeta_stelenes"
+  },
+  {
+    "name": "Vice-roi",
+    "places": [
+      "North America"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "wetland",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Limenitis_archippus"
+  },
+  {
+    "name": "Cuivré des marais",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "wetland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Lycaena_dispar"
+  },
+  {
+    "name": "Cuivré de la verge-d'or",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "mountain",
+      "meadow",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Lycaena_virgaureae"
+  },
+  {
+    "name": "Thècle du bouleau",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Thecla_betulae"
+  },
+  {
+    "name": "Thècle du chêne",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Favonius_quercus"
+  },
+  {
+    "name": "Thècle de la ronce",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa",
+      "North America"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Callophrys_rubi"
+  },
+  {
+    "name": "Thècle de l'orme",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "forest",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Satyrium_w-album"
+  },
+  {
+    "name": "Thècle du nerprun",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "dry grassland",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Satyrium_spini"
+  },
+  {
+    "name": "Argus frêle",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Cupido_minimus"
+  },
+  {
+    "name": "Azuré des cytises",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "dry grassland",
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Glaucopsyche_alexis"
+  },
+  {
+    "name": "Azuré du serpolet",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "dry grassland",
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Phengaris_arion"
+  },
+  {
+    "name": "Azuré de la croisette",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "wetland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Phengaris_alcon"
+  },
+  {
+    "name": "Azuré de la sanguisorbe",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "wetland",
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Phengaris_teleius"
+  },
+  {
+    "name": "Azuré de l'ajonc",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "dry grassland",
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Plebejus_argus"
+  },
+  {
+    "name": "Collier-de-corail",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "dry grassland",
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Aricia_agestis"
+  },
+  {
+    "name": "Argus bleu-nacré",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Polyommatus_coridon"
+  },
+  {
+    "name": "Demi-Argus",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "meadow",
+      "mountain"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Cyaniris_semiargus"
+  },
+  {
+    "name": "Azuré de la luzerne",
+    "places": [
+      "Europe",
+      "Africa",
+      "Asia"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "garden",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Leptotes_pirithous"
+  },
+  {
+    "name": "Azuré porte-queue",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa",
+      "Oceania"
+    ],
+    "families": [
+      "Lycaenidae"
+    ],
+    "habitats": [
+      "garden",
+      "meadow",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Lampides_boeticus"
+  },
+  {
+    "name": "Point-de-Hongrie",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Hesperiidae"
+    ],
+    "habitats": [
+      "dry grassland",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Erynnis_tages"
+  },
+  {
+    "name": "Hespérie de l'Alcée",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Hesperiidae"
+    ],
+    "habitats": [
+      "dry grassland",
+      "garden",
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Carcharodus_alceae"
+  },
+  {
+    "name": "Hespérie de la houque",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Hesperiidae"
+    ],
+    "habitats": [
+      "meadow",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Thymelicus_sylvestris"
+  },
+  {
+    "name": "Hespérie du dactyle",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Hesperiidae"
+    ],
+    "habitats": [
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Thymelicus_lineola"
+  },
+  {
+    "name": "Sylvaine",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Hesperiidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Ochlodes_sylvanus"
+  },
+  {
+    "name": "Hespérie du brome",
+    "places": [
+      "Europe",
+      "Asia",
+      "North America"
+    ],
+    "families": [
+      "Hesperiidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "meadow",
+      "wetland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Carterocephalus_palaemon"
+  },
+  {
+    "name": "Epargyreus clarus",
+    "places": [
+      "North America"
+    ],
+    "families": [
+      "Hesperiidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "meadow",
+      "garden"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Epargyreus_clarus"
+  },
+  {
+    "name": "Petit Paon de nuit",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Saturniidae"
+    ],
+    "habitats": [
+      "meadow",
+      "forest edge",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Saturnia_pavonia"
+  },
+  {
+    "name": "Isabelle",
+    "places": [
+      "Europe"
+    ],
+    "families": [
+      "Saturniidae"
+    ],
+    "habitats": [
+      "mountain",
+      "forest"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Graellsia_isabellae"
+  },
+  {
+    "name": "Papillon lune",
+    "places": [
+      "North America"
+    ],
+    "families": [
+      "Saturniidae"
+    ],
+    "habitats": [
+      "forest"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Actias_luna"
+  },
+  {
+    "name": "Hyalophora cecropia",
+    "places": [
+      "North America"
+    ],
+    "families": [
+      "Saturniidae"
+    ],
+    "habitats": [
+      "forest",
+      "forest edge",
+      "garden"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Hyalophora_cecropia"
+  },
+  {
+    "name": "Atlas",
+    "places": [
+      "Asia"
+    ],
+    "families": [
+      "Saturniidae"
+    ],
+    "habitats": [
+      "tropical forest"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Attacus_atlas"
+  },
+  {
+    "name": "Moro-sphinx",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Sphingidae"
+    ],
+    "habitats": [
+      "garden",
+      "meadow",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Macroglossum_stellatarum"
+  },
+  {
+    "name": "Sphinx tête-de-mort",
+    "places": [
+      "Europe",
+      "Africa",
+      "Asia"
+    ],
+    "families": [
+      "Sphingidae"
+    ],
+    "habitats": [
+      "garden",
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Acherontia_atropos"
+  },
+  {
+    "name": "Sphinx de l'euphorbe",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Sphingidae"
+    ],
+    "habitats": [
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Hyles_euphorbiae"
+  },
+  {
+    "name": "Sphinx du laurier-rose",
+    "places": [
+      "Africa",
+      "Asia",
+      "Europe"
+    ],
+    "families": [
+      "Sphingidae"
+    ],
+    "habitats": [
+      "garden",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Daphnis_nerii"
+  },
+  {
+    "name": "Sphinx du troène",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Sphingidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "garden"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Sphinx_ligustri"
+  },
+  {
+    "name": "Sphinx demi-paon",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Sphingidae"
+    ],
+    "habitats": [
+      "wetland",
+      "forest edge",
+      "garden"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Smerinthus_ocellata"
+  },
+  {
+    "name": "Sphinx du tilleul",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Sphingidae"
+    ],
+    "habitats": [
+      "forest",
+      "garden"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Mimas_tiliae"
+  },
+  {
+    "name": "Sphinx bourdon",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Sphingidae"
+    ],
+    "habitats": [
+      "meadow",
+      "forest edge",
+      "wetland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Hemaris_tityus"
+  },
+  {
+    "name": "Sphinx du liseron",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa",
+      "Oceania"
+    ],
+    "families": [
+      "Sphingidae"
+    ],
+    "habitats": [
+      "garden",
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Agrius_convolvuli"
+  },
+  {
+    "name": "Sphinx du peuplier",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Sphingidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "wetland",
+      "garden"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Laothoe_populi"
+  },
+  {
+    "name": "Écaille martre",
+    "places": [
+      "Europe",
+      "Asia",
+      "North America"
+    ],
+    "families": [
+      "Erebidae"
+    ],
+    "habitats": [
+      "meadow",
+      "garden",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Arctia_caja"
+  },
+  {
+    "name": "Écaille chinée",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Erebidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Euplagia_quadripunctaria"
+  },
+  {
+    "name": "Goutte-de-sang",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Erebidae"
+    ],
+    "habitats": [
+      "meadow",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Tyria_jacobaeae"
+  },
+  {
+    "name": "Catocala nupta",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Erebidae"
+    ],
+    "habitats": [
+      "wetland",
+      "forest edge",
+      "garden"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Catocala_nupta"
+  },
+  {
+    "name": "Phalène du bouleau",
+    "places": [
+      "Europe",
+      "Asia",
+      "North America"
+    ],
+    "families": [
+      "Geometridae"
+    ],
+    "habitats": [
+      "forest",
+      "garden",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Biston_betularia"
+  },
+  {
+    "name": "Phalène du groseillier",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Geometridae"
+    ],
+    "habitats": [
+      "garden",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Abraxas_grossulariata"
+  },
+  {
+    "name": "Grande Géomètre",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Geometridae"
+    ],
+    "habitats": [
+      "forest",
+      "wetland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Geometra_papilionaria"
+  },
+  {
+    "name": "Gamma",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Noctuidae"
+    ],
+    "habitats": [
+      "meadow",
+      "garden"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Autographa_gamma"
+  },
+  {
+    "name": "Noctuelle fiancée",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Noctuidae"
+    ],
+    "habitats": [
+      "garden",
+      "meadow"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Noctua_pronuba"
+  },
+  {
+    "name": "Livrée des arbres",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Lasiocampidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "garden"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Malacosoma_neustria"
+  },
+  {
+    "name": "Bombyx du chêne",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Lasiocampidae"
+    ],
+    "habitats": [
+      "dry grassland",
+      "forest edge"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Lasiocampa_quercus"
+  },
+  {
+    "name": "Bombyx de la ronce",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Lasiocampidae"
+    ],
+    "habitats": [
+      "meadow",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Macrothylacia_rubi"
+  },
+  {
+    "name": "Hespérie des sanguisorbes",
+    "places": [
+      "Europe",
+      "Asia",
+      "Africa"
+    ],
+    "families": [
+      "Hesperiidae"
+    ],
+    "habitats": [
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Spialia_sertorius"
+  },
+  {
+    "name": "Céphale",
+    "places": [
+      "Europe",
+      "Asia"
+    ],
+    "families": [
+      "Nymphalidae"
+    ],
+    "habitats": [
+      "forest edge",
+      "dry grassland"
+    ],
+    "wikipedia": "https://fr.wikipedia.org/wiki/Coenonympha_arcania"
   }
 ]

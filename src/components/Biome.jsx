@@ -1,6 +1,6 @@
 /* eslint-disable no-useless-assignment */
 import Ground from "./Ground";
-import Butterfly from "./Butterfly";
+import ModelButterfly from "./ButterflyObject/ModelButterfly";
 import { useEffect, useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import Path from "./Path";
@@ -28,7 +28,7 @@ function Biome() {
 
   return (
     <>
-      <Butterfly reference={butterflyRef} />
+      <ModelButterfly reference={butterflyRef} />
       <Path reference={pathRef} />
       <BiomeBox></BiomeBox>
       <Ground></Ground>

@@ -1,5 +1,6 @@
 /* eslint-disable react-hooks/refs */
-export default function Butterfly(props) {
+
+export default function ModelButterfly(props) {
   return (
     <mesh ref={props.reference}>
       <meshNormalMaterial />
