@@ -1,35 +1,30 @@
 /* eslint-disable no-useless-assignment */
 import Ground from "./Ground";
-import ModelButterfly from "./ButterflyObject/ModelButterfly";
-import { useEffect, useRef } from "react";
-import { useFrame } from "@react-three/fiber";
-import Path from "./Path";
+import Butterfly from "./ButterflyObject/Butterfly";
 import BiomeBox from "./BiomeBox";
 
-function animateMovement(obj, path, time) {
-  const movement = () => {
-    let progression = Math.min((time / 10) % 1);
-    let position = path.current.getPointAt(progression);
-    obj.current.position.copy(position);
-  };
-  movement();
-}
+let results = 10;
+
+/* function ButterflyGenerator() {
+  for (let i = 0; i < results; i++) {
+    return <Butterfly />;
+  }
+} */
 
 function Biome() {
-  const butterflyRef = useRef();
-  const pathRef = useRef();
-
-  useEffect(() => {});
-
-  useFrame(({ clock }) => {
-    const time = clock.elapsedTime;
-    animateMovement(butterflyRef, pathRef, time);
-  });
-
   return (
     <>
-      <ModelButterfly reference={butterflyRef} />
-      <Path reference={pathRef} />
+      <Butterfly />
+      <Butterfly />
+
+      <Butterfly />
+      <Butterfly />
+      <Butterfly /><Butterfly />
+      <Butterfly />
+      <Butterfly />
+      <Butterfly />
+      <Butterfly />
+
       <BiomeBox></BiomeBox>
       <Ground></Ground>
     </>
