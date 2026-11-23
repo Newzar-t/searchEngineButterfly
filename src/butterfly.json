@@ -15,12 +15,6 @@
       "wetland",
       "dry grassland"
     ],
-    "colors": [
-      "yellow",
-      "black",
-      "blue",
-      "red"
-    ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Papilio_machaon"
   },
   {
@@ -38,11 +32,6 @@
       "dry grassland",
       "garden"
     ],
-    "colors": [
-      "yellow",
-      "black",
-      "blue"
-    ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Iphiclides_podalirius"
   },
   {
@@ -57,11 +46,6 @@
     "habitats": [
       "mountain"
     ],
-    "colors": [
-      "white",
-      "black",
-      "red"
-    ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Parnassius_apollo"
   },
   {
@@ -74,13 +58,6 @@
     ],
     "habitats": [
       "tropical forest"
-    ],
-    "colors": [
-      "green",
-      "blue",
-      "black",
-      "brown",
-      "white"
     ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Ornithoptera_alexandrae"
   },
@@ -95,10 +72,6 @@
     "habitats": [
       "tropical forest",
       "garden"
-    ],
-    "colors": [
-      "blue",
-      "black"
     ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Papilio_ulysses"
   },
@@ -116,11 +89,6 @@
       "garden",
       "meadow"
     ],
-    "colors": [
-      "white",
-      "black",
-      "yellow"
-    ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Pieris_brassicae"
   },
   {
@@ -136,10 +104,6 @@
     "habitats": [
       "forest edge",
       "forest"
-    ],
-    "colors": [
-      "yellow",
-      "green"
     ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Gonepteryx_rhamni"
   },
@@ -157,11 +121,6 @@
       "wetland",
       "forest edge"
     ],
-    "colors": [
-      "white",
-      "orange",
-      "green"
-    ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Anthocharis_cardamines"
   },
   {
@@ -178,11 +137,6 @@
       "meadow",
       "garden"
     ],
-    "colors": [
-      "yellow",
-      "orange",
-      "black"
-    ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Colias_croceus"
   },
   {
@@ -198,10 +152,6 @@
     "habitats": [
       "forest edge",
       "garden"
-    ],
-    "colors": [
-      "white",
-      "black"
     ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Aporia_crataegi"
   },
@@ -221,11 +171,6 @@
       "forest edge",
       "wetland"
     ],
-    "colors": [
-      "black",
-      "red",
-      "white"
-    ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Vanessa_atalanta"
   },
   {
@@ -241,12 +186,6 @@
       "garden",
       "forest edge",
       "meadow"
-    ],
-    "colors": [
-      "red",
-      "black",
-      "blue",
-      "yellow"
     ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Aglais_io"
   },
@@ -265,11 +204,6 @@
       "meadow",
       "garden"
     ],
-    "colors": [
-      "orange",
-      "black",
-      "white"
-    ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Vanessa_cardui"
   },
   {
@@ -285,11 +219,6 @@
     "habitats": [
       "meadow",
       "mountain"
-    ],
-    "colors": [
-      "orange",
-      "black",
-      "white"
     ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Danaus_plexippus"
   },
@@ -307,11 +236,6 @@
       "garden",
       "forest edge"
     ],
-    "colors": [
-      "orange",
-      "black",
-      "blue"
-    ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Aglais_urticae"
   },
   {
@@ -328,11 +252,6 @@
       "forest",
       "forest edge"
     ],
-    "colors": [
-      "orange",
-      "black",
-      "green"
-    ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Argynnis_paphia"
   },
   {
@@ -348,11 +267,6 @@
       "forest",
       "forest edge"
     ],
-    "colors": [
-      "blue",
-      "brown",
-      "white"
-    ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Apatura_iris"
   },
   {
@@ -365,11 +279,6 @@
     ],
     "habitats": [
       "tropical forest"
-    ],
-    "colors": [
-      "blue",
-      "black",
-      "brown"
     ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Morpho_menelaus"
   },
@@ -385,11 +294,6 @@
     "habitats": [
       "tropical forest",
       "forest edge"
-    ],
-    "colors": [
-      "black",
-      "red",
-      "yellow"
     ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Heliconius_melpomene"
   },
@@ -408,10 +312,6 @@
       "dry grassland",
       "forest edge"
     ],
-    "colors": [
-      "brown",
-      "orange"
-    ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Maniola_jurtina"
   },
   {
@@ -429,10 +329,6 @@
       "forest edge",
       "garden"
     ],
-    "colors": [
-      "brown",
-      "yellow"
-    ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Pararge_aegeria"
   },
   {
@@ -447,11 +343,6 @@
     ],
     "habitats": [
       "dry grassland"
-    ],
-    "colors": [
-      "blue",
-      "brown",
-      "white"
     ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Polyommatus_bellargus"
   },
@@ -469,11 +360,6 @@
       "meadow",
       "dry grassland"
     ],
-    "colors": [
-      "blue",
-      "brown",
-      "orange"
-    ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Polyommatus_icarus"
   },
   {
@@ -490,11 +376,6 @@
     "habitats": [
       "meadow",
       "dry grassland"
-    ],
-    "colors": [
-      "orange",
-      "brown",
-      "black"
     ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Lycaena_phlaeas"
   },
@@ -514,10 +395,6 @@
       "garden",
       "forest"
     ],
-    "colors": [
-      "blue",
-      "white"
-    ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Celastrina_argiolus"
   },
   {
@@ -531,10 +408,6 @@
     "habitats": [
       "forest edge",
       "forest"
-    ],
-    "colors": [
-      "brown",
-      "orange"
     ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Hamearis_lucina"
   },
@@ -552,10 +425,6 @@
       "dry grassland",
       "forest edge"
     ],
-    "colors": [
-      "brown",
-      "white"
-    ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Pyrgus_malvae"
   },
   {
@@ -570,11 +439,6 @@
     ],
     "habitats": [
       "dry grassland"
-    ],
-    "colors": [
-      "brown",
-      "orange",
-      "white"
     ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Hesperia_comma"
   },
@@ -593,10 +457,6 @@
       "forest edge",
       "dry grassland"
     ],
-    "colors": [
-      "brown",
-      "white"
-    ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Saturnia_pyri"
   },
   {
@@ -613,10 +473,6 @@
       "forest edge",
       "garden",
       "wetland"
-    ],
-    "colors": [
-      "red",
-      "green"
     ],
     "wikipedia": "https://fr.wikipedia.org/wiki/Deilephila_elpenor"
   }

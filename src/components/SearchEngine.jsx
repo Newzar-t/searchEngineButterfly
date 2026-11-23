@@ -3,6 +3,7 @@ import Dropdown from "./Dropdown";
 
 function SearchEngine() {
   const [datas, setDatas] = useState([]);
+  const [request, setRequest] = useState([]);
 
   async function searchRequest() {
     try {
@@ -45,17 +46,6 @@ function SearchEngine() {
     { name: "tropical forest" },
   ];
 
-  const colors = [
-    { name: "white" },
-    { name: "yellow" },
-    { name: "orange" },
-    { name: "red" },
-    { name: "blue" },
-    { name: "green" },
-    { name: "brown" },
-    { name: "black" },
-  ];
-
   const handleSubmit = (event) => {
     event.preventDefault();
     searchRequest();
@@ -64,24 +54,21 @@ function SearchEngine() {
     const queryPlaces = formData.get("queryPlaces");
     const queryFamilies = formData.get("queryFamilies");
     const queryHabitats = formData.get("queryHabitats");
-    const queryColors = formData.get("queryColors");
     const globalQuery = {
       queryPlaces,
       queryFamilies,
       queryHabitats,
-      queryColors,
     };
 
     const results = datas.filter(
       (item) =>
         item.places.includes(globalQuery.queryPlaces) &&
         item.families.includes(globalQuery.queryFamilies) &&
-        item.habitats.includes(globalQuery.queryHabitats) &&
-        item.colors.includes(globalQuery.queryColors),
+        item.habitats.includes(globalQuery.queryHabitats),
     );
+    setRequest(results);
 
-
-    console.log(results);
+    console.log(request);
   };
 
   return (
@@ -106,17 +93,6 @@ function SearchEngine() {
         queryName={"queryPlaces"}
         placeholder={"Choose a place"}
         options={places}
-      />
-
-      <label htmlFor="Colors" name="Colors">
-        Colors
-      </label>
-      <Dropdown
-        id={"selectColors"}
-        label={"Colors"}
-        queryName={"queryColors"}
-        placeholder={"Choose a color"}
-        options={colors}
       />
 
       <label htmlFor="habitats" name="habitats">
