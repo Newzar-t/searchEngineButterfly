@@ -7,6 +7,10 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
+function wingMovement(obj, time){
+  
+}
+
 function animateMovement(obj, path, time) {
   const movement = () => {
     let progression = Math.min((time / 10) % 1);
@@ -20,10 +24,10 @@ export default function Butterfly() {
   const butterflyRef = useRef();
   const trajectoryRef = useRef();
 
-  useFrame(({ clock }) => {
+  /*   useFrame(({ clock }) => {
     const time = clock.elapsedTime;
     animateMovement(butterflyRef, trajectoryRef, time);
-  });
+  }); */
 
   return (
     <group>
