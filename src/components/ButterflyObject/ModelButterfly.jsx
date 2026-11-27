@@ -6,8 +6,8 @@ export default function ModelButterfly(props) {
 
   return (
     <group
-      onPointerEnter={props.onPointer}
       {...props}
+      onClick={props.handleClick}
       name="Scene"
       animations={model.animations}
     >

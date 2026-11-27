@@ -1,6 +1,6 @@
 import ModelButterfly from "./ModelButterfly";
 import trajectories from "./trajectory";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
 
@@ -20,13 +20,11 @@ function animateMovement(obj, path, time) {
   const movement = () => {
     let progression = Math.min((time / 10) % 1);
     let position = path.current.getPointAt(progression);
+    let t = path.current.getTangent(progression).normalize();
     obj.current.position.copy(position);
+    obj.current.lookAt(position.clone().add(t));
   };
   movement();
-}
-
-function onPointer() {
-  console.log("butterfly found!");
 }
 
 export default function Butterfly() {
@@ -44,9 +42,14 @@ export default function Butterfly() {
     wingMovement(butterflyRef, mixer);
   }, []);
 
+  const handleClick = (event) => {
+    const obj = event.object;
+    console.log(obj);
+  };
+
   return (
     <group>
-      <ModelButterfly ref={butterflyRef} onPointer={onPointer()} />
+      <ModelButterfly ref={butterflyRef} handleClick={handleClick} />
       <catmullRomCurve3
         ref={trajectoryRef}
         points={trajectories[getRandomInt(trajectories.length)]}
