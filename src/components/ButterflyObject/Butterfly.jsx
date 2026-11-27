@@ -33,7 +33,7 @@ export default function Butterfly() {
   useFrame(({ clock }) => {
     const time = clock.elapsedTime;
     mixer.update(1 / 60);
-    /*     animateMovement(butterflyRef, trajectoryRef, time); */
+   animateMovement(butterflyRef, trajectoryRef, time);
   });
 
   useEffect(() => {

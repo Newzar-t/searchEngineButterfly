@@ -1,20 +1,24 @@
-import { useLoader } from "@react-three/fiber";
 import { useGLTF } from "@react-three/drei";
-import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+import { DoubleSide } from "three";
 
-function Model() {
-  const gltf = useLoader(
-    GLTFLoader,
-    "/src/assets/envmodels/grassfieldproto.glb",
+export function Model(props) {
+  const { nodes } = useGLTF("/src/assets/envmodels/grassfieldproto.glb");
+  return (
+    <group {...props} dispose={null}>
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.GrassFields.geometry}
+        position={[0, -5, 0]}
+      >
+        <meshPhysicalMaterial color={0x4a733f} side={DoubleSide} />
+      </mesh>
+    </group>
   );
-
-  gltf.scene.position.set(0, -5, 0);
-
-  return <primitive object={gltf.scene}></primitive>;
 }
+
+useGLTF.preload("/src/assets/envmodels/grassfieldproto.glb");
 
 export default function Ground() {
   return <Model />;
 }
-
-useGLTF.preload("/src/assets/envmodels/grassfieldproto.glb");

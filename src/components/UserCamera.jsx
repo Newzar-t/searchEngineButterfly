@@ -25,14 +25,17 @@ export default function UserCamera() {
     <PerspectiveCamera
       makeDefault
       ref={userCamera}
-      fov={75}
+      fov={120}
       aspect={window.innerWidth / window.innerHeight}
-      near={5}
+      near={2}
       far={50}
-      zoom={2}
-      position={[8, 1, 0]}
+      position={[0, 1, 0]}
     >
-      <OrbitControls ref={controls} enableZoom={false} />
+      <OrbitControls
+        ref={controls}
+        enableZoom={false}
+        minPolarAngle={Math.PI / 6}
+      />
     </PerspectiveCamera>
   );
 }

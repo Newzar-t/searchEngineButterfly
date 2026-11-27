@@ -13,6 +13,15 @@ function Biome() {
   return (
     <>
       <Butterfly />
+      <Butterfly />
+      <Butterfly />
+      <Butterfly />
+      <Butterfly />
+      <Butterfly />
+      <Butterfly />
+      <Butterfly />
+      <Butterfly />
+      <Butterfly />
 
       <BiomeBox></BiomeBox>
       <Ground></Ground>
