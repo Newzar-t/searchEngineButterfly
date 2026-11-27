@@ -1,14 +1,19 @@
 import ModelButterfly from "./ModelButterfly";
 import trajectories from "./trajectory";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { useFrame } from "@react-three/fiber";
+import * as THREE from "three";
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
-function wingMovement(obj, time){
-  
+function wingMovement(obj, mixer) {
+  const animClips = [...obj.current.animations];
+  animClips.forEach((clip) => {
+    const action = mixer.clipAction(clip, obj.current);
+    action.play();
+  });
 }
 
 function animateMovement(obj, path, time) {
@@ -21,17 +26,23 @@ function animateMovement(obj, path, time) {
 }
 
 export default function Butterfly() {
+  const mixer = new THREE.AnimationMixer();
   const butterflyRef = useRef();
   const trajectoryRef = useRef();
 
-  /*   useFrame(({ clock }) => {
+  useFrame(({ clock }) => {
     const time = clock.elapsedTime;
-    animateMovement(butterflyRef, trajectoryRef, time);
-  }); */
+    mixer.update(1 / 60);
+    /*     animateMovement(butterflyRef, trajectoryRef, time); */
+  });
+
+  useEffect(() => {
+    wingMovement(butterflyRef, mixer);
+  }, []);
 
   return (
     <group>
-      <ModelButterfly reference={butterflyRef} />
+      <ModelButterfly ref={butterflyRef} />
       <catmullRomCurve3
         ref={trajectoryRef}
         points={trajectories[getRandomInt(trajectories.length)]}
