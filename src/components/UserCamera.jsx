@@ -29,7 +29,8 @@ export default function UserCamera() {
       aspect={window.innerWidth / window.innerHeight}
       near={5}
       far={50}
-      position={[8, 1.5, 0]}
+      zoom={2}
+      position={[8, 1, 0]}
     >
       <OrbitControls ref={controls} enableZoom={false} />
     </PerspectiveCamera>
