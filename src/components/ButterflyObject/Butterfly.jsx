@@ -25,6 +25,10 @@ function animateMovement(obj, path, time) {
   movement();
 }
 
+function onPointer() {
+  console.log("butterfly found!");
+}
+
 export default function Butterfly() {
   const mixer = new THREE.AnimationMixer();
   const butterflyRef = useRef();
@@ -33,7 +37,7 @@ export default function Butterfly() {
   useFrame(({ clock }) => {
     const time = clock.elapsedTime;
     mixer.update(1 / 60);
-   animateMovement(butterflyRef, trajectoryRef, time);
+    animateMovement(butterflyRef, trajectoryRef, time);
   });
 
   useEffect(() => {
@@ -42,7 +46,7 @@ export default function Butterfly() {
 
   return (
     <group>
-      <ModelButterfly ref={butterflyRef} />
+      <ModelButterfly ref={butterflyRef} onPointer={onPointer()} />
       <catmullRomCurve3
         ref={trajectoryRef}
         points={trajectories[getRandomInt(trajectories.length)]}

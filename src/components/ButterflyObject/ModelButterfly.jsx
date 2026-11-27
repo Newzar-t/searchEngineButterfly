@@ -5,7 +5,12 @@ export default function ModelButterfly(props) {
   const model = useGLTF("/src/assets/butterflymodels/butterflyPrototype.glb");
 
   return (
-    <group {...props} name="Scene" animations={model.animations}>
+    <group
+      onPointerEnter={props.onPointer}
+      {...props}
+      name="Scene"
+      animations={model.animations}
+    >
       <mesh
         name="body"
         castShadow

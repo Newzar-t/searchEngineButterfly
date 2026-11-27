@@ -1,7 +1,6 @@
 /* eslint-disable no-useless-assignment */
 import Ground from "./Ground";
 import Butterfly from "./ButterflyObject/Butterfly";
-import BiomeBox from "./BiomeBox";
 
 /* function ButterflyGenerator() {
   for (let i = 0; i < results; i++) {
@@ -23,7 +22,6 @@ function Biome() {
       <Butterfly />
       <Butterfly />
 
-      <BiomeBox></BiomeBox>
       <Ground></Ground>
     </>
   );

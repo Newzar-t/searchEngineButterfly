@@ -74,6 +74,8 @@ function SearchEngine() {
       ),
     );
 
+    console.log(searchResults);
+
     return searchResults;
   };
 
